@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+  }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+
+    background-image: url(./img/design1_image1.jpg);
+    background-position: 50% 85%;
+    background-repeat: no-repeat;
+
+    border-bottom: 2px dashed red;
+
+    width: 100%;
+    height: 22vh;
+  }
+h1{
+    flex-grow: 1;
+
+    color: red;
+    text-shadow:8px 8px 30px rgb(0, 45, 248),-2px 2px 20px rgb(4, 28, 250);
+    margin-left: 20%;
+    /* align-self: baseline; */
+}
+/* ajustes logo */
+.contenedorLogo{
+    display: flex;
+    justify-content: center;
+    /* align-self: baseline; */
+    /* background-color: rgba(156, 0, 0, 0.411); */
+    /* border: 2px solid black; */
+    border-radius: 360px;
+    width: 20%;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+.enlaces{
+    width: 10%;
+    min-height: 40vh;
+    /* background-color: grey; */
+    border-right: 5px solid white;
+}
+/* ajustes botonera */
+nav a{
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: 18px;
+    text-align: right;
+    text-decoration: none;
+    font-weight:500;
+
+    color:red;
+    text-shadow: 2px 2px 2px rgb(0, 24, 241);
+
+    border-radius: 30px 0px 0px 30px;
+    border: 2px solid white;
+    background-color: rgba(128, 128, 128, 0.425);
+
+    padding: 10px;
+    margin: 5px 0px 5px 5px;
+}
+.sub{
+    background-color: rgb(28, 97, 1);
+    font-style: italic;
+    color:rgb(255, 238, 0);
+    text-shadow: 2px 2px 2px grey;
+}
+nav a:hover{
+    background-color: grey;
+    font-size: 22px;
+
+}
+/* ajustes mail */
+main{
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    margin: 0px 0px 10px 0px;
+    /* background-color: red; */
+    border: 2px solid white;
+    border-radius: 0px 10px 10px 0px;
+    width: 70%;
+    min-height: 60vh;
+}
+.subtitulo{
+    margin: 10px;
+
+    border-bottom: 2px solid yellow;
+    border-radius: 5px 5px 0px 0px;
+
+    width: 70%;
+    
+    color: blue;
+    text-shadow:8px 8px 30px rgb(165, 36, 36),-2px 2px 20px rgb(165, 36, 36);
+}
+/* ajustes del article */
+article{
+    margin:10px 10px 10px 40px;
+}
+h3{
+    color: red;
+    text-shadow:8px 8px 30px rgb(165, 36, 36),-2px 2px 20px rgb(165, 36, 36);
+    font-weight: bold;
+    margin: 5px;
+}
+h4{
+    color:white;
+    text-shadow: 2px 2px 2px grey;
+    margin: 5px;
+}
+p{
+    color:white;
+    text-indent: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px;
+}
+/* ajustes tabla*/
+.tabla1{
+    width: 70%;
+    color: white;
+    margin:10px;
+    /* border: 1px solid blue; */
+    font-weight: bold;
+}
+.tambla1 td,th{    
+    border-bottom: 1px solid grey;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.tabla1 tr:hover{
+    /* font-style: oblique; */
+    background-color: red;
+}
+.pe2{
+    text-decoration: underline
+}
+.gameinfo{
+    display:inline;
+}
+.pe3{
+    display:inline;
+}
+.telymail{
+    display: flex;
+    justify-content: space-between;
+}
+/* ajustes de los maps */
+.mapp{
+    width: 50%;
+    height: 50%;
+}
+.t2{
+    color:aqua;
+    width: 40%;
+    height: 30%;
+    margin: 20px;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 14%, rgba(63,63,148,1) 37%, rgba(0,212,255,1) 100%);
+    border-radius: 15px;
+}
+.t2 tr:hover{
+    background: rgb(24,208,79);
+    background: linear-gradient(45deg, rgba(24,208,79,1) 60%, rgba(0,78,255,1) 62%);
+}
+.contschool{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    margin: 5px;
+    background: rgb(24,208,79);
+    background: radial-gradient(circle, rgba(24,208,79,1) 28%, rgba(0,78,255,1) 71%);
+}
+.school{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    margin: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(236,255,0,1) 77%);
+}
+/* Ajustes rules */
+ol{
+    color:aqua;
+}
+/* ajustes form */
+form{
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid blue; */
+    color: white;
+    width: 90%;
+}
+fieldset{
+    margin: 10px;
+}
+form label,input{
+    margin: 5px;
+}
+form p{
+    margin: 10px;
+}
+.data{
+    display: flex;
+    align-items: center;
+}
+/* ajustes imagen */
+figure{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    min-height: 40vh;    
+}
+/* ajustes imagen */
+.contenedorImagen{
+    display: flex;
+    background-image: url(./img/hockey3.jpg);
+    background-position: center;
+    min-width: 90%;
+    min-height: 98%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contenedorImagen1{
+    display: flex;
+    background-image: url(./img/hockey1.jpg);
+    background-position: center;
+    min-width: 90%;
+    min-height: 98%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contenedorImagen2{
+    display: flex;
+    background-image: url(./img/hockey2.jpg);
+    background-position: center;
+    min-width: 90%;
+    min-height: 98%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contenedorImagen3{
+    display: flex;
+    background-image: url(./img/hockey3.jpg);
+    background-position: center;
+    min-width: 90%;
+    min-height: 98%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contenedorImagen4{
+    display: flex;
+    background-image: url(./img/jugador2.png);
+    background-position: center;
+    min-width: 90%;
+    min-height: 98%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contenedorImagen5{
+    display: flex;
+    background-image: url(./img/jugador1.png);
+    background-position: center;
+    min-width: 90%;
+    min-height: 98%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* ajustes footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0px 10px 5px 10px;
+    border: 2px dashed rgb(126, 126, 126);
+    border-radius: 5px;
+
+    width: 100%;
+    min-height: 10vh;
+}
+footer div{
+    align-self: baseline;
+}
+.contenedorProfile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+
+    border-radius: 30px;
+    border: 2px dotted grey;
+
+    margin: 5px;
+}
+.profileImagen{
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 50px;
+    width: 50px;
+}
+.contLin{
+    margin: 20px;
+}
+.lin{
+    height: 30px;
+    width: 30px;
+}
+.lin:hover{
+    height: 35px;
+    width: 35px;
+}
+h6{
+    color: grey;
+}
