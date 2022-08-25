@@ -1,0 +1,257 @@
+/* div{
+    border: 1px solid black;    
+} */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 50vh;
+}
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+
+    background-image: url(./img/banner.jpg);
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+}
+.ancor{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header h1{
+    color: red;
+    text-shadow: 5px 5px 5px rgba(0, 0, 255, 0.637);
+}
+.flechasHaeder{
+    width:10%;
+    margin: 20px;
+    max-width:75px;
+}
+.flechasHaeder:hover{
+    box-shadow: 2px 2px 5px red;
+    border-radius: 360px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+.sombratxt{
+    text-shadow: 2px 2px rgba(128, 128, 128, 0.384);
+}
+
+.sombraHov:hover{
+    font-size: larger;
+    text-shadow: 2px 2px rgba(0, 0, 255, 0.466);
+}
+
+/* ajustes cards */
+.contCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(222, 184, 135, 0.514);
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    width: 290px;
+    height: 350px;    
+    box-shadow: 2px 2px 5px rgb(90, 90, 90);
+    border-radius: 8px;
+    background-color: white;
+    
+}
+.Card:hover{
+    box-shadow: 2px 2px 5px rgba(9, 255, 0, 0.603);
+}
+.contImg{
+    box-shadow: 10px blue;
+    height: 40%;
+    
+}
+.imagenCard{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128);
+}
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2px;
+    height: 60%;
+}
+.cardTitle{
+    margin: 2px;
+    height: 20%;
+    text-align: center;
+    text-shadow: 2px 4px 9px rgb(10, 13, 190);
+}
+.cardText{
+    margin: 2px;
+    height: 60%;
+    text-indent: 10%;
+}
+.cardBotton{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2px;
+    height: 20%;
+}
+.cardBotton p{
+    margin: 5px;
+    text-shadow: 2px 4px 9px rgba(190,10,10,1);
+}
+/* Fin cosas de las cards */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: chocolate;
+    min-height: 10vh;
+}
+.contRedes{
+    display: flex;
+    justify-content: space-between;
+}
+.redesImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 360px;
+}
+.redesImg:hover{
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 2px 5px rgba(9, 255, 0, 0.603);
+}
+
+/* ajustes Contact */
+.contContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+    width: 100%;
+    padding: 5px;
+    background-color: bisque;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128);
+
+}
+.contContactInfo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: grey;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128);
+    padding: 5px;
+}
+.inputAjuste{
+    width: 70% !important;
+    display: inline !important;
+}
+.labelAjuste{
+    margin: 5px;
+}
+
+/* ajustes details */
+
+.contDetails{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    min-height: 65vh;
+    background-color: bisque;
+}
+
+.bigCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 290px;
+    min-height: 350px;
+    width: 80%;
+    height: 80%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128);
+    background-color: white;
+}
+
+.contImgBig{
+    min-width: 280px;
+    min-height: 150px;
+    width: 40%;
+    height: 80%;
+}
+.bigImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.bodyBigCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 280px;
+    min-height: 180px;
+    width: 50%;
+    height: 90%;
+}
+.titleBigCard{
+    width: 100%;
+    height: 20%;
+    text-align:center;
+}
+
+.textBigCard{
+    width: 100%;
+    height: 60%;
+}
+.footerBigCard{
+    width: 100%;
+    height: 20%;
+}
+
+/* ajustes stats */
+
+.contStats{
+    width: 90%;
+    height: 90%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 2px 2px 5px rgb(128, 128, 128);
+    margin: 5px;
+}
