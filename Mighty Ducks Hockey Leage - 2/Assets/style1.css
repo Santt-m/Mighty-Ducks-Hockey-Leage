@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(126, 11, 11);
+}
+header{
+    height: 250px;
+    background-image: url(./img/design1_image1.jpg);
+    background-position: 50% 80%;
+}
+header>h1{
+    text-align: left;
+    font-size: 60px;
+    color: blue;
+    text-shadow: 2px 2px 2px red;
+}
+.subtitulo>h2{
+    background-color: black;
+    text-shadow: 2px 2px 2px red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+        left: 10px;
+        top: 5px;
+   }
+.contenedorLogo{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    border: 2px solid black;
+    position: relative;
+        bottom: 95px;
+        left: 1000px;            
+}
+.imagen{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 2px solid black;
+    position: relative;
+        bottom: 100px;
+        left: 200px;
+}
+.enlaces{
+    padding: 10px;
+}
+nav a{
+    font-size: 20px;
+    display: block;
+    /*background-color: black;*/
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(10, 197, 141, 0.452);
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    position: relative;
+        bottom: 70px;
+}
+a:hover{
+    background-color: rgba(0, 0, 255, 0.541);
+}
+.sub{
+    left: 20px;
+    background-color: rgba(255, 1, 1, 0.411);
+    text-decoration: underline;
+}
+figure{
+    position: absolute;
+        left: 800px;
+        top:500px;
+}
+article{
+    display: block;
+    color: black;
+    width: 50%;
+    position: relative;
+        left: 250px;
+        bottom: 200px;
+}
+article>h3{
+    /*color: blue;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+article>p{
+    color: white;
+    text-indent: 30px;
+    font-size: 15px;
+}
+.contacto{
+    display: block;
+    /*background-color: black;*/
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    position: relative;
+        left: 250px;
+        bottom: 200px;
+}
+.contacto>p{
+    color: black;
+    text-indent: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+.about{
+    display: block;
+    /*background-color: black;*/
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    position: relative;
+        left: 250px;
+        bottom: 200px;
+        
+}
+.about>h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.about>p{
+    color: white;
+    text-indent: 30px;
+    font-size: 15px;
+    padding: 5px;
+}
